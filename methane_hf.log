@@ -1,0 +1,388 @@
+
+    -----------------------------------------------------------------------
+          Psi4: An Open-Source Ab Initio Electronic Structure Package
+                               Psi4 1.8.2 release
+
+                         Git: Rev {} zzzzzzz 
+
+
+    D. G. A. Smith, L. A. Burns, A. C. Simmonett, R. M. Parrish,
+    M. C. Schieber, R. Galvelis, P. Kraus, H. Kruse, R. Di Remigio,
+    A. Alenaizan, A. M. James, S. Lehtola, J. P. Misiewicz, M. Scheurer,
+    R. A. Shaw, J. B. Schriber, Y. Xie, Z. L. Glick, D. A. Sirianni,
+    J. S. O'Brien, J. M. Waldrop, A. Kumar, E. G. Hohenstein,
+    B. P. Pritchard, B. R. Brooks, H. F. Schaefer III, A. Yu. Sokol2023-12-03:11:32:04,615 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__D_CONVERGENCE': 1e-06, 'SCF__E_CONVERGENCE': 1e-06, 'SCF__INTS_TOLERANCE': 1e-12, 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:11:32:04,618 INFO     [psi4.driver.driver:524] Compute energy(): method=hf, basis=sto-3g, molecule=default, nre=13.200436141650309
+2023-12-03:11:32:04,786 INFO     [psi4.driver.driver:527] Return energy(): -39.724747933247045
+2023-12-03:11:32:04,801 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__D_CONVERGENCE': 1e-06, 'SCF__E_CONVERGENCE': 1e-06, 'SCF__INTS_TOLERANCE': 1e-12, 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:11:32:04,803 INFO     [psi4.driver.driver:789] Compute properties(): method=hf, basis=6-311+g(2d,p), molecule=default, nre=13.200436141650309
+2023-12-03:11:32:04,952 INFO     [psi4.driver.driver:792] Return properties(): -40.20858048855402
+2023-12-03:11:49:05,103 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__D_CONVERGENCE': 1e-06, 'SCF__E_CONVERGENCE': 1e-06, 'SCF__INTS_TOLERANCE': 1e-12, 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:11:49:05,106 INFO     [psi4.driver.driver:524] Compute energy(): method=hf, basis=sto-3g, molecule=default, nre=130.37876989400914
+2023-12-03:11:49:05,530 INFO     [psi4.driver.driver:527] Return energy(): -155.46104697635622
+2023-12-03:11:49:05,546 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__D_CONVERGENCE': 1e-06, 'SCF__E_CONVERGENCE': 1e-06, 'SCF__INTS_TOLERANCE': 1e-12, 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:11:49:05,547 INFO     [psi4.driver.driver:789] Compute properties(): method=hf, basis=6-311+g(2d,p), molecule=default, nre=130.37876989400914
+2023-12-03:11:49:06,470 INFO     [psi4.driver.driver:792] Return properties(): -157.33987674193057
+2023-12-03:11:49:25,648 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__D_CONVERGENCE': 1e-06, 'SCF__E_CONVERGENCE': 1e-06, 'SCF__INTS_TOLERANCE': 1e-12, 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:11:49:25,650 INFO     [psi4.driver.driver:524] Compute energy(): method=b3lyp, basis=6-31g(d), molecule=default, nre=130.37877129863708
+2023-12-03:11:49:27,166 INFO     [psi4.driver.driver:527] Return energy(): -158.45553394409393
+2023-12-03:11:49:27,182 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__D_CONVERGENCE': 1e-06, 'SCF__E_CONVERGENCE': 1e-06, 'SCF__INTS_TOLERANCE': 1e-12, 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:11:49:27,184 INFO     [psi4.driver.driver:789] Compute properties(): method=hf, basis=6-311+g(2d,p), molecule=default, nre=130.37877129863708
+2023-12-03:11:49:28,83 INFO     [psi4.driver.driver:792] Return properties(): -157.3398767945888
+2023-12-03:11:49:48,937 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__D_CONVERGENCE': 1e-06, 'SCF__E_CONVERGENCE': 1e-06, 'SCF__INTS_TOLERANCE': 1e-12, 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:11:49:48,940 INFO     [psi4.driver.driver:524] Compute energy(): method=b3lyp, basis=6-31g(d), molecule=default, nre=187.19418441463966
+2023-12-03:11:49:51,358 INFO     [psi4.driver.driver:527] Return energy(): -233.65658678486832
+2023-12-03:11:49:51,383 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__D_CONVERGENCE': 1e-06, 'SCF__E_CONVERGENCE': 1e-06, 'SCF__INTS_TOLERANCE': 1e-12, 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:11:49:51,385 INFO     [psi4.driver.driver:789] Compute properties(): method=hf, basis=6-311+g(2d,p), molecule=default, nre=187.19418441463966
+2023-12-03:11:49:52,819 INFO     [psi4.driver.driver:792] Return properties(): -232.2139489564035
+<=
+
+    Name: (STO-3G AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry C          line   198 file /Users/hiroto/anaconda3/envs/p4env/share/psi4/basis/def2-universal-jkfit.gbs 
+    atoms 2-5 entry H          line    18 file /Users/hiroto/anaconda3/envs/p4env/share/psi4/basis/def2-universal-jkfit.gbs 
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.000 GiB; user supplied 0.698 GiB. 
+  Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               4
+    Memory [MiB]:               715
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (STO-3G AUX)
+    Blend: DEF2-UNIVERSAL-JKFIT
+    Number of shells: 49
+    Number of basis functions: 147
+    Number of Cartesian functions: 169
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  Minimum eigenvalue in the overlap matrix is 2.3201312244E-01.
+  Reciprocal condition number of the overlap matrix is 1.0181331896E-01.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A          9       9 
+   -------------------------
+    Total       9       9
+   -------------------------
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RHF iter SAD:   -38.39349536516580   -3.83935e+01   0.00000e+00 
+   @DF-RHF iter   1:   -39.72342376186278   -1.32993e+00   4.87848e-03 ADIIS/DIIS
+   @DF-RHF iter   2:   -39.72467114891933   -1.24739e-03   1.01471e-03 ADIIS/DIIS
+   @DF-RHF iter   3:   -39.72474433607216   -7.31872e-05   2.51923e-04 ADIIS/DIIS
+   @DF-RHF iter   4:   -39.72474793312330   -3.59705e-06   1.61745e-06 DIIS
+   @DF-RHF iter   5:   -39.72474793324704   -1.23741e-10   7.59211e-09 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A    -11.032317     2A     -0.898665     3A     -0.510227  
+       4A     -0.510227     5A     -0.510227  
+
+    Virtual:                                                              
+
+       6A      0.696086     7A      0.696086     8A      0.696086  
+       9A      0.721821  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     5 ]
+    NA   [     5 ]
+    NB   [     5 ]
+
+  @DF-RHF Final Energy:   -39.72474793324704
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =             13.2004361416503091
+    One-Electron Energy =                 -78.9270428653866674
+    Two-Electron Energy =                  26.0018587904893081
+    Total Energy =                        -39.7247479332470448
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000           -0.0000000            0.0000000
+ Dipole Y            :          0.0000001           -0.0000001           -0.0000000
+ Dipole Z            :          0.0000001           -0.0000001           -0.0000000
+ Magnitude           :                                                    0.0000000
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on hirotonoMacBook-Air.local at Sun Dec  3 11:32:04 2023
+Module time:
+	user time   =       0.15 seconds =       0.00 minutes
+	system time =       0.02 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =       0.76 seconds =       0.01 minutes
+	system time =       0.14 seconds =       0.00 minutes
+	total time  =         19 seconds =       0.32 minutes
+
+*** tstart() called on hirotonoMacBook-Air.local
+*** at Sun Dec  3 11:32:04 2023
+
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  5, 4, 3
+    Auxiliary basis highest AM E, G, H:  6, 5, 4
+    Onebody   basis highest AM E, G, H:  6, 5, 4
+    Solid Harmonics ordering:            gaussian
+   => Loading Basis Set <=
+
+    Name: 6-311+G(2D,P)
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry C          line   143 file /Users/hiroto/anaconda3/envs/p4env/share/psi4/basis/6-311pg_2d_p_.gbs 
+    atoms 2-5 entry H          line    50 file /Users/hiroto/anaconda3/envs/p4env/share/psi4/basis/6-311pg_2d_p_.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        4 Threads,    953 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         C            0.000000000130     0.000000008358     0.000000006187    12.000000000000
+         H           -0.585653438408    -0.190386663355     0.922785525724     1.007825032230
+         H            0.460366472268     1.007844087897     0.055525933835     1.007825032230
+         H           -0.671608166265    -0.051719154656    -0.881497415954     1.007825032230
+         H            0.796895130858    -0.765738369406    -0.096814117269     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      5.09643  B =      5.09643  C =      5.09643 [cm^-1]
+  Rotational constants: A = 152786.99909  B = 152786.99815  C = 152786.98273 [MHz]
+  Nuclear repulsion =   13.200436141650309
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311+G(2D,P)
+    Blend: 6-311+G(2D,P)
+    Number of shells: 27
+    Number of basis functions: 51
+    Number of Cartesian functions: 53
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (6-311+G(2D,P) AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry C          line   200 file /Users/hiroto/anaconda3/envs/p4env/share/psi4/basis/heavy-aug-cc-pvtz-jkfit.gbs 
+    atoms 2-5 entry H          line   116 file /Users/hiroto/anaconda3/envs/p4env/share/psi4/basis/heavy-aug-cc-pvtz-jkfit.gbs 
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.005 GiB; user supplied 0.698 GiB. 
+  Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               4
+    Memory [MiB]:               715
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (6-311+G(2D,P) AUX)
+    Blend: HEAVY-AUG-CC-PVTZ-JKFIT
+    Number of shells: 70
+    Number of basis functions: 224
+    Number of Cartesian functions: 271
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  Minimum eigenvalue in the overlap matrix is 9.6367764514E-03.
+  Reciprocal condition number of the overlap matrix is 1.4744613528E-03.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         51      51 
+   -------------------------
+    Total      51      51
+   -------------------------
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RHF iter SAD:   -39.61542613722059   -3.96154e+01   0.00000e+00 
+   @DF-RHF iter   1:   -40.14360768900971   -5.28182e-01   6.50687e-03 ADIIS/DIIS
+   @DF-RHF iter   2:   -40.19796430252450   -5.43566e-02   2.73883e-03 ADIIS/DIIS
+   @DF-RHF iter   3:   -40.20787509918796   -9.91080e-03   4.46388e-04 ADIIS/DIIS
+   @DF-RHF iter   4:   -40.20857099351927   -6.95894e-04   5.37257e-05 DIIS
+   @DF-RHF iter   5:   -40.20858041977408   -9.42625e-06   4.64142e-06 DIIS
+   @DF-RHF iter   6:   -40.20858048855402   -6.87799e-08   3.22706e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A    -11.216992     2A     -0.934743     3A     -0.540009  
+       4A     -0.540009     5A     -0.540009  
+
+    Virtual:                                                              
+
+       6A      0.074132     7A      0.110281     8A      0.110281  
+       9A      0.110281    10A      0.267567    11A      0.267567  
+      12A      0.267567    13A      0.311158    14A      0.532385  
+      15A      0.532385    16A      0.532385    17A      0.777038  
+      18A      0.777038    19A      0.785496    20A      0.785633  
+      21A      0.785633    22A      0.785633    23A      1.024971  
+      24A      1.229121    25A      1.229121    26A      1.229121  
+      27A      1.708368    28A      1.708368    29A      1.708368  
+      30A      2.087322    31A      2.087322    32A      2.087322  
+      33A      2.466166    34A      2.466166    35A      2.466166  
+      36A      2.575373    37A      2.575373    38A      2.590554  
+      39A      2.949889    40A      2.949889    41A      2.949889  
+      42A      3.196921    43A      3.506161    44A      3.506161  
+      45A      3.506161    46A      3.615373    47A      3.615373  
+      48A      4.545233    49A      4.545233    50A      4.545233  
+      51A     25.127003  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     5 ]
+    NA   [     5 ]
+    NB   [     5 ]
+
+  @DF-RHF Final Energy:   -40.20858048855402
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =             13.2004361416503091
+    One-Electron Energy =                 -79.2745084975325653
+    Two-Electron Energy =                  25.8654918673282275
+    Total Energy =                        -40.2085804885540199
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the HF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000           -0.0000000            0.0000000
+ Dipole Y            :          0.0000001           -0.0000001           -0.0000000
+ Dipole Z            :          0.0000001           -0.0000001           -0.0000000
+ Magnitude           :                                                    0.0000000
+
+ L = 2.  Multiply by 1.3450342976 to convert [e a0^2] to [Debye ang]
+ Quadrupole XX       :        -12.1710912            5.8602124           -6.3108787
+ Quadrupole XY       :         -0.0000001            0.0000002            0.0000001
+ Quadrupole XZ       :          0.0000002           -0.0000003           -0.0000001
+ Quadrupole YY       :        -12.1710919            5.8602135           -6.3108784
+ Quadrupole YZ       :         -0.0000000            0.0000000            0.0000000
+ Quadrupole ZZ       :        -12.1710919            5.8602135           -6.3108784
+ Traceless XX        :          0.0000005           -0.0000007           -0.0000002
+ Traceless YY        :         -0.0000002            0.0000003            0.0000001
+ Traceless ZZ        :         -0.0000003            0.0000004            0.0000001
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on hirotonoMacBook-Air.local at Sun Dec  3 11:32:04 2023
+Module time:
+	user time   =       0.15 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =       0.93 seconds =       0.02 minutes
+	system time =       0.15 seconds =       0.00 minutes
+	total time  =         19 seconds =       0.32 minutes
